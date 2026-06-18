@@ -7,5 +7,3 @@ Restate the last message in plain human language, no jargon.
 ```bash
 npx skills add backnotprop/bro
 ```
-
-Works with Claude Code, Codex, Cursor, OpenCode, and other skills-compatible agents.
