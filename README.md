@@ -5,13 +5,13 @@ Restate the last message in plain human language, no jargon. Human-invoked only.
 ## Install
 
 ```bash
-npx skills add backnotprop/bro-skills
+npx skills add backnotprop/bro
 ```
 
 List first:
 
 ```bash
-npx skills add backnotprop/bro-skills --list
+npx skills add backnotprop/bro --list
 ```
 
 Works with Claude Code, Codex, Cursor, OpenCode, and other skills-compatible agents.
