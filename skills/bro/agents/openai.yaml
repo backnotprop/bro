@@ -1,6 +1,6 @@
 interface:
   display_name: "bro"
-  short_description: "Restate the last message in plain human language"
+  short_description: "Restate the last message in plain human language, no jargon."
   default_prompt: "Use $bro to restate your last message without jargon."
 
 policy:

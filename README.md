@@ -1,8 +1,6 @@
 # bro
 
-Restate the last agent message in plain human language — no jargon.
-
-Human-invoked only. Use `/bro` in supported agents.
+Restate the last message in plain human language, no jargon. Human-invoked only.
 
 ## Install
 
