@@ -1,6 +1,6 @@
 # bro
 
-Restate the last message in plain human language, no jargon. Human-invoked only.
+Restate the last message in plain human language, no jargon.
 
 ## Install
 
