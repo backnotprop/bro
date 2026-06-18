@@ -1,6 +1,7 @@
 ---
 name: bro
 description: Restates the agent's last message in plain human language without jargon. Use when the user invokes /bro, asks for a plain-English restatement, or wants the last response stated simply and coherently.
+disable-model-invocation: true
 ---
 
 # bro
