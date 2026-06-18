@@ -7,13 +7,13 @@ Human-invoked only. Use `/bro` in supported agents.
 ## Install
 
 ```bash
-npx skills add backnotprop/bro
+npx skills add backnotprop/bro-skills
 ```
 
 List first:
 
 ```bash
-npx skills add backnotprop/bro --list
+npx skills add backnotprop/bro-skills --list
 ```
 
 Works with Claude Code, Codex, Cursor, OpenCode, and other skills-compatible agents.
