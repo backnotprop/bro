@@ -1,0 +1,7 @@
+interface:
+  display_name: "facts"
+  short_description: "Surface the critical facts and implications"
+  default_prompt: "Use $facts to explain the critical facts and implications I need to know about this effort."
+
+policy:
+  allow_implicit_invocation: false

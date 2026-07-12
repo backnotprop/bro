@@ -1,0 +1,14 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "bro",
+      "description": "Small skills for clear explanations and critical context.",
+      "skills": [
+        "bro",
+        "facts"
+      ]
+    }
+  ]
+}

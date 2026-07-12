@@ -1,0 +1,26 @@
+{
+  "name": "bro",
+  "owner": {
+    "name": "backnotprop"
+  },
+  "description": "Small skills for plain-language explanations and concise technical briefings.",
+  "plugins": [
+    {
+      "name": "bro",
+      "source": {
+        "source": "github",
+        "repo": "backnotprop/bro"
+      },
+      "description": "Restate jargon plainly or surface the critical facts and implications of an effort.",
+      "homepage": "https://github.com/backnotprop/bro",
+      "repository": "https://github.com/backnotprop/bro",
+      "keywords": [
+        "plain-language",
+        "briefing",
+        "simplify",
+        "skills"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

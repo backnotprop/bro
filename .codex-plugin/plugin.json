@@ -1,0 +1,32 @@
+{
+  "name": "bro",
+  "version": "0.2.0",
+  "description": "Plain-language restatements and concise briefings on critical facts and implications.",
+  "author": {
+    "name": "backnotprop",
+    "url": "https://github.com/backnotprop"
+  },
+  "homepage": "https://github.com/backnotprop/bro",
+  "repository": "https://github.com/backnotprop/bro",
+  "keywords": [
+    "plain-language",
+    "briefing",
+    "simplify",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "bro",
+    "shortDescription": "Clear explanations and critical context",
+    "longDescription": "Restate a previous response without jargon or give a capable engineer a concise briefing on the critical facts and implications of an effort.",
+    "developerName": "backnotprop",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Bro, say that again without the jargon.",
+      "Use $facts to tell me what I must know about this effort."
+    ]
+  }
+}
