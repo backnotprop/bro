@@ -15,7 +15,7 @@ Do better bro.
 Small agent skills for clearer explanations and critical context.
 
 - `bro` — restate the assistant's last message in plain human language, without jargon.
-- `facts` — list the critical facts and implications of an effort. 
+- `facts` — list the critical facts and implications of an effort before or after it's built.
 
 ## Install
 
