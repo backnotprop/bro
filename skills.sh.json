@@ -4,10 +4,9 @@
   "groupings": [
     {
       "title": "bro",
-      "description": "Small skills for clear explanations and critical context.",
+      "description": "Plain-language restatements without jargon.",
       "skills": [
-        "bro",
-        "facts"
+        "bro"
       ]
     }
   ]

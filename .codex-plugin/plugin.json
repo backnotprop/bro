@@ -1,7 +1,7 @@
 {
   "name": "bro",
-  "version": "0.2.0",
-  "description": "Plain-language restatements and concise briefings on critical facts and implications.",
+  "version": "0.3.0",
+  "description": "Restate the previous response in plain human language without jargon.",
   "author": {
     "name": "backnotprop",
     "url": "https://github.com/backnotprop"
@@ -10,23 +10,21 @@
   "repository": "https://github.com/backnotprop/bro",
   "keywords": [
     "plain-language",
-    "briefing",
     "simplify",
     "skills"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "bro",
-    "shortDescription": "Clear explanations and critical context",
-    "longDescription": "Restate a previous response without jargon or give a capable engineer a concise briefing on the critical facts and implications of an effort.",
+    "shortDescription": "Restate the previous response without jargon",
+    "longDescription": "Turn the assistant's previous response into a simpler, more concise explanation that sounds like one human talking to another.",
     "developerName": "backnotprop",
     "category": "Productivity",
     "capabilities": [
       "Write"
     ],
     "defaultPrompt": [
-      "Bro, say that again without the jargon.",
-      "Use $facts to tell me what I must know about this effort."
+      "Bro, say that again without the jargon."
     ]
   }
 }

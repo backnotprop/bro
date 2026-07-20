@@ -1,7 +1,6 @@
 {
   "name": "bro",
   "skills": [
-    "./skills/bro",
-    "./skills/facts"
+    "./skills/bro"
   ]
 }
