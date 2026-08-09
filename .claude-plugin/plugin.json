@@ -2,6 +2,7 @@
   "name": "bro",
   "skills": [
     "./skills/bro",
-    "./skills/facts"
+    "./skills/facts",
+    "./skills/readback"
   ]
 }

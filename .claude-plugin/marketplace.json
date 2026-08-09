@@ -3,7 +3,7 @@
   "owner": {
     "name": "backnotprop"
   },
-  "description": "Small skills for plain-language explanations and concise technical briefings.",
+  "description": "Small skills for plain-language explanations, concise technical briefings, and request alignment.",
   "plugins": [
     {
       "name": "bro",
@@ -11,12 +11,13 @@
         "source": "github",
         "repo": "backnotprop/bro"
       },
-      "description": "Restate jargon plainly or surface the critical facts and implications of an effort.",
+      "description": "Restate jargon plainly, surface critical facts, or read back a request to confirm alignment.",
       "homepage": "https://github.com/backnotprop/bro",
       "repository": "https://github.com/backnotprop/bro",
       "keywords": [
         "plain-language",
         "briefing",
+        "alignment",
         "simplify",
         "skills"
       ],

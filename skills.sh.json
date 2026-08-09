@@ -4,10 +4,11 @@
   "groupings": [
     {
       "title": "bro",
-      "description": "Small skills for clear explanations and critical context.",
+      "description": "Small skills for clear explanations, critical context, and alignment.",
       "skills": [
         "bro",
-        "facts"
+        "facts",
+        "readback"
       ]
     }
   ]

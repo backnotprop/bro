@@ -1,0 +1,7 @@
+interface:
+  display_name: "readback"
+  short_description: "Restate the request to confirm alignment"
+  default_prompt: "Use $readback to clearly restate my request so I can confirm we're aligned."
+
+policy:
+  allow_implicit_invocation: false

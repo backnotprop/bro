@@ -1,21 +1,22 @@
-```
-____   ____   ___  
-|    \ |    \ /   \ 
-|  o  )|  D  )     |
-|     ||    /|  O  |
-|  O  ||    \|     |
-|     ||  .  \     |
-|_____||__|\_|\___/ 
-```               
+# bro
 
-Do better bro.
+Practical skills for daily work with AI.
+
+Use them to simplify AI output, identify the facts that matter, and confirm requests before work starts.
+
+No jargon. No bullshit. Straight to the point.
 
 ## Skills
 
-Small agent skills for clearer explanations and critical context.
+- `bro`: Restates the last AI response in plain language.
+- `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
+- `readback`: Restates your request before work starts so that you can confirm it.
 
-- `bro` — restate the last message in plain human language, without jargon.
-- `facts` — list the critical facts and implications of an effort before or after it's built.
+### Readback
+
+`/readback [long prompt, often voice prompt]`
+
+Use `readback` after a long, dictated, or complex request. The AI states the request clearly and waits for your confirmation.
 
 ## Install
 
