@@ -3,7 +3,7 @@
   "owner": {
     "name": "backnotprop"
   },
-  "description": "Small skills for plain-language explanations, concise technical briefings, and request alignment.",
+  "description": "Daily AI utilities for plain language, useful facts, clear requests, and session recaps.",
   "plugins": [
     {
       "name": "bro",
@@ -11,13 +11,14 @@
         "source": "github",
         "repo": "backnotprop/bro"
       },
-      "description": "Restate jargon plainly, surface critical facts, or read back a request to confirm alignment.",
+      "description": "Simplify an AI response, surface important facts, restate a request, or recap recent work.",
       "homepage": "https://github.com/backnotprop/bro",
       "repository": "https://github.com/backnotprop/bro",
       "keywords": [
         "plain-language",
         "briefing",
         "alignment",
+        "recap",
         "simplify",
         "skills"
       ],

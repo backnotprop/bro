@@ -3,6 +3,7 @@
   "skills": [
     "./skills/bro",
     "./skills/facts",
-    "./skills/readback"
+    "./skills/readback",
+    "./skills/recap"
   ]
 }

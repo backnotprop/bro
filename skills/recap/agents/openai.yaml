@@ -1,0 +1,7 @@
+interface:
+  display_name: "recap"
+  short_description: "Summarize the latest session work"
+  default_prompt: "Use $recap to summarize what we have been doing, with focus on the last thing that happened."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,7 +1,7 @@
 {
   "name": "bro",
-  "version": "0.3.0",
-  "description": "Plain-language restatements, concise critical briefings, and request readbacks for alignment.",
+  "version": "0.4.0",
+  "description": "Daily AI utilities for plain language, useful facts, clear requests, and session recaps.",
   "author": {
     "name": "backnotprop",
     "url": "https://github.com/backnotprop"
@@ -12,14 +12,15 @@
     "plain-language",
     "briefing",
     "alignment",
+    "recap",
     "simplify",
     "skills"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "bro",
-    "shortDescription": "Clear explanations, critical context, and alignment",
-    "longDescription": "Restate a previous response without jargon, give a capable engineer a concise briefing on an effort, or read back a request so the human can confirm alignment.",
+    "shortDescription": "Daily utilities for clear work with AI",
+    "longDescription": "Simplify an AI response, surface important facts, restate a request, or recap the latest session work.",
     "developerName": "backnotprop",
     "category": "Productivity",
     "capabilities": [
@@ -27,8 +28,8 @@
     ],
     "defaultPrompt": [
       "Bro, say that again without the jargon.",
-      "Use $facts to tell me what I must know about this effort.",
-      "Use $readback to restate my request so I can confirm alignment."
+      "Use $readback to restate my request so I can confirm alignment.",
+      "Use $recap to summarize the latest work in two or three sentences."
     ]
   }
 }

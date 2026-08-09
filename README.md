@@ -2,7 +2,7 @@
 
 Practical skills for daily work with AI.
 
-Use them to simplify AI output, identify the facts that matter, and confirm requests before work starts.
+Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work.
 
 No jargon. No bullshit. Straight to the point.
 
@@ -11,6 +11,7 @@ No jargon. No bullshit. Straight to the point.
 - `bro`: Restates the last AI response in plain language.
 - `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
 - `readback`: Restates your request before work starts so that you can confirm it.
+- `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
 
 ### Readback
 

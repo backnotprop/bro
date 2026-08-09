@@ -4,11 +4,12 @@
   "groupings": [
     {
       "title": "bro",
-      "description": "Small skills for clear explanations, critical context, and alignment.",
+      "description": "Daily utilities for clear, direct work with AI.",
       "skills": [
         "bro",
         "facts",
-        "readback"
+        "readback",
+        "recap"
       ]
     }
   ]
