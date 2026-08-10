@@ -4,7 +4,7 @@ Practical skills for daily work with AI.
 
 Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work.
 
-No jargon. No bullshit. Straight to the point.
+Alignment shouldn't be so hard.
 
 ## Skills
 
