@@ -13,7 +13,7 @@ Alignment shouldn't be so hard.
 - `readback`: Restates your request before work starts so that you can confirm it.
 - `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
 
-### Readback
+### (latest ✨): Readback 
 
 `/readback [long prompt, often voice prompt]`
 
