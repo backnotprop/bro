@@ -7,14 +7,13 @@ ____   ____   ___
 |     ||  .  \     |
 |_____||__|\_|\___/ 
 ```               
+Alignment shouldn't be so hard.
+
+## Skills
 
 Practical skills for daily work with AI.
 
 Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work.
-
-Alignment shouldn't be so hard.
-
-## Skills
 
 - `bro`: Restates the last AI response in plain language.
 - `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
