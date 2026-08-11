@@ -1,4 +1,12 @@
-# bro
+```
+____   ____   ___
+|    \ |    \ /   \
+|  o  )|  D  )     |
+|     ||    /|  O  |
+|  O  ||    \|     |
+|     ||  .  \     |
+|_____||__|\_|\___/
+```
 
 Practical skills for daily work with AI.
 
