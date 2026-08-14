@@ -1,4 +1,6 @@
-```
+
+
+```markdown
 ____   ____   ___  
 |    \ |    \ /   \ 
 |  o  )|  D  )     |
@@ -13,7 +15,7 @@ Alignment shouldn't be so hard.
 
 Practical skills for daily work with AI.
 
-Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work.
+Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work. Invoke any skill by typing `$skillname` or `/skillname` in your prompt.
 
 - `bro`: Restates the last AI response in plain language.
 - `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
@@ -44,4 +46,5 @@ npx skills add backnotprop/bro
 ```bash
 codex plugin marketplace add backnotprop/bro
 codex plugin add bro@bro
+```
 ```
