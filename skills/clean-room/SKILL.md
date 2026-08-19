@@ -9,7 +9,7 @@ disable-model-invocation: true
 
 # Clean room
 
-Launch a smart, independent agent to give us an unbiased third-party decision analysis. It must not inherit this conversation.
+Launch a smart, independent agent to give us an unbiased third-party decision analysis.
 
 You carry this conversation's bias. Write a neutral brief, start a fresh agent, and return its verdict without steering it.
 
@@ -29,9 +29,4 @@ You carry this conversation's bias. Write a neutral brief, start a fresh agent, 
    - Require one verdict, its reasons, the strongest opposing case, why that case loses, and what would change the verdict. Do not accept “it depends.”
    - Ensure your instructions do not reward reaching an expected answer or encourage the agent to seek context that reveals prior preferences or conclusions unless that context is required for the decision.
 5. Return the response unchanged, even when it contradicts you or the user.
-   - Put any commentary after the verdict and label it as your view.
    - Check the verdict for unsupported assumptions. If one drives the answer, correct the neutral brief and rerun with a fresh agent.
-
-If you cannot create a fresh context, do not simulate one. Give the user the neutral brief to paste into another session.
-
-When you deliver the verdict, state that you selected the context in the brief. This process reduces bias but cannot remove it.
