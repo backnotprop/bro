@@ -24,7 +24,7 @@ You carry this conversation's bias. Write a neutral brief, start a fresh agent, 
    - Remove opinions, prior conclusions, sentiment, leading language, and clues about the preferred answer.
    - Present the known choices fairly, including “recommend against” or “no action.”
    - Pass the brief through a bias filter: could a reader guess the hoped-for answer? If yes, rewrite it.
-4. Tell the agent to think independently, challenge the premise, consider other choices, and search for evidence against its conclusion.
+4. Tell the agent to think independently, challenge any premise(s), consider other choices, and search for evidence against its conclusion.
    - Let it gather missing facts. Prefer direct sources; use other sources to fill factual gaps, label unverified claims, and take observations rather than opinions.
    - Require one verdict, its reasons, the strongest opposing case, why that case loses, and what would change the verdict. Do not accept “it depends.”
 5. Return the response unchanged, even when it contradicts you or the user.
