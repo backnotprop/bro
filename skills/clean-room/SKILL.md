@@ -9,6 +9,10 @@ disable-model-invocation: true
 
 # Clean room
 
+Launch a smart, independent agent to give us an unbiased third-party decision analysis. Give it only neutral facts and context.
+
+Do not frame the brief toward the user's preferred answer or any alternative. We want a fair opinion from an agent with no access to this conversation.
+
 You are the biased party. You carry this conversation's context, opinions, and momentum.
 
 Get a verdict from a fresh agent that carries none of it. End your influence on the verdict at the neutral brief.
@@ -16,14 +20,17 @@ Get a verdict from a fresh agent that carries none of it. End your influence on 
 1. Frame one decision per run. Separate “should we” from “how should we.”
 2. Start a new agent, task, thread, pane, or session with no inherited conversation.
    - Use the most capable isolated option at your disposal.
+   - Prefer a smarter agent when the decision is complex, consequential, or difficult to reverse.
    - Never use a fork, continuation, or handoff that copies this conversation.
    - Start every rerun fresh. Do not include a previous clean-room verdict.
 3. Write a neutral brief:
    - State the decision, options, verified facts, fixed constraints, open questions, and primary sources.
    - Define the key objects and terms. A missing or incorrect premise can invalidate the verdict.
    - Give equal weight to the strongest facts that support each option.
-   - Remove opinions, prior conclusions, leading language, and clues about the preferred answer.
-   - Do not reveal the user's preference or your own.
+   - Remove opinions, prior conclusions, leading language, and clues about any preferred answer.
+   - Do not include the user's sentiment, preferred outcome, or prior reactions. Do not include your own.
+   - Present each option without saying who proposed or prefers it.
+   - Do not frame the task to make the agent infer or deliver the answer that the user wants.
    - If the agent reads a proposal or design, tell it to treat that document as mechanics, not evidence of value.
    - Allow “recommend against” or “no action” as equal choices.
    - Before you launch the agent, ask whether a reader can guess the hoped-for answer from the brief.
