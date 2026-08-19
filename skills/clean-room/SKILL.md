@@ -15,7 +15,7 @@ Get a verdict from a fresh agent that carries none of it. End your influence on 
 
 1. Frame one decision per run. Separate “should we” from “how should we.”
 2. Start a new agent, task, thread, pane, or session with no inherited conversation.
-   - Use the most capable isolated option that the product provides.
+   - Use the most capable isolated option at your disposal.
    - Never use a fork, continuation, or handoff that copies this conversation.
    - Start every rerun fresh. Do not include a previous clean-room verdict.
 3. Write a neutral brief:
