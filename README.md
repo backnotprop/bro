@@ -21,11 +21,10 @@ Use them to simplify AI output, identify important facts, confirm requests, reca
 - `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
 - `clean-room`: Gets an independent verdict from a fresh agent with no access to the current conversation.
 
-### (latest ✨): Clean room
+### (latest ✨): Readback and clean room
 
-`/clean-room [decision]`
-
-`clean-room` sends a neutral brief to a fresh agent and returns its verdict unchanged. It never uses a fork of the current conversation.
+- `/readback [long prompt, often voice prompt]`: Restates your request clearly and waits for confirmation.
+- `/clean-room [decision]`: Sends a neutral brief to a fresh agent and returns its verdict unchanged.
 
 ## Install
 
