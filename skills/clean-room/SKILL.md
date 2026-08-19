@@ -2,8 +2,7 @@
 name: clean-room
 description: >-
   Get an independent decision from a fresh agent that receives a neutral brief
-  and none of the current conversation. Use when the human explicitly invokes
-  /clean-room or $clean-room. Never invoke this skill automatically.
+  and none of the current conversation. 
 disable-model-invocation: true
 ---
 
