@@ -24,9 +24,12 @@ Do not steer it afterward or reshape its verdict.
    - Use the most capable isolated option at your disposal.
    - Prefer a smarter agent when the decision is complex, consequential, or difficult to reverse.
    - Never use a fork, continuation, or handoff that copies this conversation.
+   - Block access to the current workspace if your tools allow it.
+   - Otherwise, tell the agent not to inspect the workspace or read any local file that the brief does not name.
    - Start every rerun fresh. Do not include a previous clean-room verdict.
 3. Write a neutral brief:
-   - State only the decision, options, verified facts, fixed constraints, open questions, and primary sources.
+   - State only the decision, options, verified facts, fixed constraints, open questions, and allowed sources.
+   - Name every local file, if any, that the agent may read.
    - Omit background that is not required to understand the decision.
    - Define the key objects and terms. A missing or incorrect premise can invalidate the verdict.
    - Give equal weight to the strongest facts that support each option.
@@ -34,14 +37,17 @@ Do not steer it afterward or reshape its verdict.
    - Do not include the user's sentiment, preferred outcome, or prior reactions. Do not include your own.
    - Present each option without saying who proposed or prefers it.
    - Do not frame the task to make the agent infer or deliver the answer that the user wants.
-   - If the agent reads a proposal or design, tell it to treat that document as mechanics, not evidence of value.
+   - If an allowed source is a proposal or design, tell the agent to treat it as mechanics, not evidence of value.
    - Allow “recommend against” or “no action” as equal choices.
    - Before you launch the agent, ask whether a reader can guess the hoped-for answer from the brief.
    - If a reader can guess it, rewrite the brief.
-4. Tell the agent to inspect primary sources, research independently, and gather missing context.
-   - Do not limit it to your sources or options.
-   - Let it challenge the premise, find other options, and reach its own conclusion.
-   - Tell it to search for evidence against its answer.
+4. Let the agent reason freely, but limit the evidence it can gather.
+   - It may read only the materials named in the brief.
+   - Do not let it search the workspace, repository, commit history, issues, plans, notes, ADRs, or other local files.
+   - Allow web research only for checkable facts from official documentation, specifications, pricing pages, and provider limits.
+   - Do not use blogs, opinion pieces, forums, social posts, reviews, summaries, or third-party comparisons.
+   - Let it challenge the premise, find other options, and gather missing facts within these limits.
+   - Tell it to search the allowed sources for evidence against its answer.
    - Require one answer. Do not accept “it depends.”
 5. Require its reasons, the strongest opposing case, why that case loses, and the evidence required to change its verdict.
 6. Return the response unchanged, even when it contradicts you or the user.
