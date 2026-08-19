@@ -4,6 +4,7 @@
     "./skills/bro",
     "./skills/facts",
     "./skills/readback",
-    "./skills/recap"
+    "./skills/recap",
+    "./skills/clean-room"
   ]
 }

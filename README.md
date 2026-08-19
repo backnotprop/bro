@@ -13,18 +13,19 @@ Alignment shouldn't be so hard.
 
 Practical skills for daily work with AI.
 
-Use them to simplify AI output, identify the facts that matter, confirm requests, and recap recent work.
+Use them to simplify AI output, identify important facts, confirm requests, recap work, and get independent decisions.
 
 - `bro`: Restates the last AI response in plain language.
 - `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
 - `readback`: Restates your request before work starts so that you can confirm it.
 - `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
+- `clean-room`: Gets an independent verdict from a fresh agent with no access to the current conversation.
 
-### (latest ✨): Readback 
+### (latest ✨): Clean room
 
-`/readback [long prompt, often voice prompt]`
+`/clean-room [decision]`
 
-Use `readback` after a long, dictated, or complex request. The AI states the request clearly and waits for your confirmation.
+`clean-room` sends a neutral brief to a fresh agent and returns its verdict unchanged. It never uses a fork of the current conversation.
 
 ## Install
 
