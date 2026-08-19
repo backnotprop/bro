@@ -15,7 +15,9 @@ Do not frame the brief toward the user's preferred answer or any alternative. We
 
 You are the biased party. You carry this conversation's context, opinions, and momentum.
 
-Get a verdict from a fresh agent that carries none of it. End your influence on the verdict at the neutral brief.
+Get a verdict from a fresh agent that carries none of it. Give the fresh agent only the neutral brief.
+
+Do not steer it afterward or reshape its verdict.
 
 1. Frame one decision per run. Separate “should we” from “how should we.”
 2. Start a new agent, task, thread, pane, or session with no inherited conversation.
@@ -24,7 +26,8 @@ Get a verdict from a fresh agent that carries none of it. End your influence on 
    - Never use a fork, continuation, or handoff that copies this conversation.
    - Start every rerun fresh. Do not include a previous clean-room verdict.
 3. Write a neutral brief:
-   - State the decision, options, verified facts, fixed constraints, open questions, and primary sources.
+   - State only the decision, options, verified facts, fixed constraints, open questions, and primary sources.
+   - Omit background that is not required to understand the decision.
    - Define the key objects and terms. A missing or incorrect premise can invalidate the verdict.
    - Give equal weight to the strongest facts that support each option.
    - Remove opinions, prior conclusions, leading language, and clues about any preferred answer.
@@ -35,7 +38,10 @@ Get a verdict from a fresh agent that carries none of it. End your influence on 
    - Allow “recommend against” or “no action” as equal choices.
    - Before you launch the agent, ask whether a reader can guess the hoped-for answer from the brief.
    - If a reader can guess it, rewrite the brief.
-4. Tell the agent to inspect primary sources instead of trusting your summary.
+4. Tell the agent to inspect primary sources, research independently, and gather missing context.
+   - Do not limit it to your sources or options.
+   - Let it challenge the premise, find other options, and reach its own conclusion.
+   - Tell it to search for evidence against its answer.
    - Require one answer. Do not accept “it depends.”
 5. Require its reasons, the strongest opposing case, why that case loses, and the evidence required to change its verdict.
 6. Return the response unchanged, even when it contradicts you or the user.
