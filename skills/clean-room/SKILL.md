@@ -27,6 +27,7 @@ You carry this conversation's bias. Write a neutral brief, start a fresh agent, 
 4. Tell the agent to think independently, challenge any premise(s), consider other choices, and search for evidence against its conclusion.
    - Let it gather missing facts. Prefer direct sources; use other sources to fill factual gaps, label unverified claims, and take observations rather than opinions.
    - Require one verdict, its reasons, the strongest opposing case, why that case loses, and what would change the verdict. Do not accept “it depends.”
+   - Ensure your instructions do not reward reaching an expected answer or encourage the agent to seek context that reveals prior preferences or conclusions unless that context is required for the decision.
 5. Return the response unchanged, even when it contradicts you or the user.
    - Put any commentary after the verdict and label it as your view.
    - Check the verdict for unsupported assumptions. If one drives the answer, correct the neutral brief and rerun with a fresh agent.
