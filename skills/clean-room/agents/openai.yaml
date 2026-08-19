@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $clean-room to get an independent decision from a fresh agent with no access to this conversation."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

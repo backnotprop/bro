@@ -1,6 +1,7 @@
 ---
 name: clean-room
-description: Get an independent decision from a fresh agent that receives a neutral brief and none of the current conversation. Use when the user asks for a clean-room review, unbiased decision, independent opinion, fresh eyes, or a decision made away from the current chat.
+description: Get an independent decision from a fresh agent that receives a neutral brief and none of the current conversation. Use when the human explicitly invokes /clean-room or $clean-room, and never otherwise; do not invoke automatically.
+disable-model-invocation: true
 ---
 
 # Clean room
