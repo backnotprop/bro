@@ -24,12 +24,14 @@ Do not steer it afterward or reshape its verdict.
    - Use the most capable isolated option at your disposal.
    - Prefer a smarter agent when the decision is complex, consequential, or difficult to reverse.
    - Never use a fork, continuation, or handoff that copies this conversation.
-   - Block access to the current workspace if your tools allow it.
-   - Otherwise, tell the agent not to inspect the workspace or read any local file that the brief does not name.
+   - Block access to the current workspace except for paths named in the brief if your tools allow it.
+   - Otherwise, tell the agent to inspect only the local paths named in the brief.
    - Start every rerun fresh. Do not include a previous clean-room verdict.
 3. Write a neutral brief:
    - State only the decision, options, verified facts, fixed constraints, open questions, and allowed sources.
-   - Name every local file, if any, that the agent may read.
+   - Name every local file or directory, if any, that the agent may read.
+   - When the decision concerns a codebase, name the code and specifications needed to understand it. Exclude decision records, notes, and files that argue for a conclusion.
+   - Give the agent enough source material to verify your summary rather than trust it.
    - Omit background that is not required to understand the decision.
    - Define the key objects and terms. A missing or incorrect premise can invalidate the verdict.
    - Give equal weight to the strongest facts that support each option.
@@ -42,10 +44,10 @@ Do not steer it afterward or reshape its verdict.
    - Before you launch the agent, ask whether a reader can guess the hoped-for answer from the brief.
    - If a reader can guess it, rewrite the brief.
 4. Let the agent reason freely, but limit the evidence it can gather.
-   - It may read only the materials named in the brief.
-   - Do not let it search the workspace, repository, commit history, issues, plans, notes, ADRs, or other local files.
-   - Allow web research only for checkable facts from official documentation, specifications, pricing pages, and provider limits.
-   - Do not use blogs, opinion pieces, forums, social posts, reviews, summaries, or third-party comparisons.
+   - It may read only the local materials named in the brief.
+   - Use official documentation and specifications first.
+   - Use forums, blogs, and incident reports only when official sources cannot answer a factual question about reliability, real-world limits, or failures.
+   - Mark those claims as community-sourced and unverified. Accept checkable observations, not opinions or recommendations.
    - Let it challenge the premise, find other options, and gather missing facts within these limits.
    - Tell it to search the allowed sources for evidence against its answer.
    - Require one answer. Do not accept “it depends.”
