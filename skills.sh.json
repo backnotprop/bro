@@ -10,7 +10,8 @@
         "facts",
         "readback",
         "recap",
-        "clean-room"
+        "clean-room",
+        "status"
       ]
     }
   ]

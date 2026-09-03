@@ -1,7 +1,7 @@
 {
   "name": "bro",
-  "version": "0.5.8",
-  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, and independent decisions.",
+  "version": "0.6.0",
+  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, independent decisions, and status boards.",
   "author": {
     "name": "backnotprop",
     "url": "https://github.com/backnotprop"
@@ -15,6 +15,8 @@
     "recap",
     "clean-room",
     "decision-making",
+    "status",
+    "status-board",
     "simplify",
     "skills"
   ],
@@ -22,7 +24,7 @@
   "interface": {
     "displayName": "bro",
     "shortDescription": "Daily utilities for clear work with AI",
-    "longDescription": "Simplify an AI response, surface important facts, restate a request, recap recent work, or get an independent decision from a fresh agent.",
+    "longDescription": "Simplify an AI response, surface important facts, restate a request, recap recent work, get an independent decision from a fresh agent, or render a status board.",
     "developerName": "backnotprop",
     "category": "Productivity",
     "capabilities": [
@@ -31,7 +33,7 @@
     "defaultPrompt": [
       "Bro, say that again without the jargon.",
       "Use $readback to restate my request so I can confirm alignment.",
-      "Use $clean-room to get an independent decision from a fresh agent."
+      "Use $status to show where the work stands as an ASCII board."
     ]
   }
 }

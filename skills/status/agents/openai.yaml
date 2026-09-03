@@ -1,0 +1,7 @@
+interface:
+  display_name: "status"
+  short_description: "Show the work in flight as an ASCII board"
+  default_prompt: "Use $status to show where the work stands as an ASCII board in the terminal."
+
+policy:
+  allow_implicit_invocation: false
