@@ -11,9 +11,7 @@ Alignment shouldn't be so hard.
 
 ## Skills
 
-Practical skills for daily work with AI.
-
-Use them to simplify AI output, identify important facts, confirm requests, recap work, get independent decisions, and see the work on a board.
+Practical, QoL, skills for daily work with AI.
 
 - `bro`: Restates the last AI response in plain language.
 - `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
