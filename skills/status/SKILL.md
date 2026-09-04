@@ -1,6 +1,6 @@
 ---
 name: status
-description: Render the state of the work in flight as an ASCII status board in the terminal, instead of a status paragraph. Use when the human explicitly invokes /status or $status; never invoke automatically.
+description: Render the state of the work in flight as an ASCII status board in the terminal, instead of a status paragraph.
 disable-model-invocation: true
 ---
 
