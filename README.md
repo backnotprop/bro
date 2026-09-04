@@ -14,8 +14,8 @@ Alignment shouldn't be so hard.
 Practical, QoL, skills for daily work with AI.
 
 - `bro`: Restates the last AI response in plain language.
-- `facts`: Lists only the facts that can affect the work, related systems, or the people who use it.
-- `readback`: Restates your request before work starts so that you can confirm it.
+- `readback`: Restates your request before work starts so that you can confirm it. (helps with stt rambling)
+- `facts`: List the critical facts I should know before or after an implementation.
 - `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
 - `clean-room`: Gets an independent verdict from a fresh agent with no access to the current conversation.
 - `status`: Renders the work in flight as an ASCII status board in the terminal.
