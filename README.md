@@ -19,10 +19,11 @@ Practical, QoL, skills for daily work with AI.
 - `recap`: Gives a two- or three-sentence recap of recent work, with focus on what happened last.
 - `clean-room`: Gets an independent verdict from a fresh agent with no access to the current conversation.
 - `status`: Renders the work in flight as an ASCII status board in the terminal.
+- `ladder`: Renders one lane of work as a vertical progress ladder, done on top and todo below.
 
-### (latest ✨): Status
+### (latest ✨): Ladder
 
-- `/status`: Renders the current work as an ASCII board, grouped by phase, one row per item, instead of a status paragraph.
+- `/ladder [lane]`: Renders one lane of work top to bottom, with a line marking where it stands today, then the next step.
 
 ## Install
 

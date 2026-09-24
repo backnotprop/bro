@@ -3,7 +3,7 @@
   "owner": {
     "name": "backnotprop"
   },
-  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, independent decisions, and status boards.",
+  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, independent decisions, status boards, and progress ladders.",
   "plugins": [
     {
       "name": "bro",
@@ -11,7 +11,7 @@
         "source": "github",
         "repo": "backnotprop/bro"
       },
-      "description": "Simplify an AI response, surface important facts, restate a request, recap work, get an independent decision, or render a status board.",
+      "description": "Simplify an AI response, surface important facts, restate a request, recap work, get an independent decision, render a status board, or follow one lane on a ladder.",
       "homepage": "https://github.com/backnotprop/bro",
       "repository": "https://github.com/backnotprop/bro",
       "keywords": [
@@ -23,6 +23,7 @@
         "decision-making",
         "status",
         "status-board",
+        "ladder",
         "simplify",
         "skills"
       ],

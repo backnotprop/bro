@@ -11,7 +11,8 @@
         "readback",
         "recap",
         "clean-room",
-        "status"
+        "status",
+        "ladder"
       ]
     }
   ]

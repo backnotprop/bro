@@ -6,6 +6,7 @@
     "./skills/readback",
     "./skills/recap",
     "./skills/clean-room",
-    "./skills/status"
+    "./skills/status",
+    "./skills/ladder"
   ]
 }

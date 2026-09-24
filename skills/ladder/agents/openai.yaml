@@ -1,0 +1,7 @@
+interface:
+  display_name: "ladder"
+  short_description: "Show one lane of work as a progress ladder"
+  default_prompt: "Use $ladder to show one lane of work as a vertical ladder, done on top and todo below."
+
+policy:
+  allow_implicit_invocation: false

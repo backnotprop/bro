@@ -1,7 +1,7 @@
 {
   "name": "bro",
-  "version": "0.6.0",
-  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, independent decisions, and status boards.",
+  "version": "0.7.0",
+  "description": "Daily AI utilities for plain language, useful facts, clear requests, session recaps, independent decisions, status boards, and progress ladders.",
   "author": {
     "name": "backnotprop",
     "url": "https://github.com/backnotprop"
@@ -17,6 +17,7 @@
     "decision-making",
     "status",
     "status-board",
+    "ladder",
     "simplify",
     "skills"
   ],
@@ -24,7 +25,7 @@
   "interface": {
     "displayName": "bro",
     "shortDescription": "Daily utilities for clear work with AI",
-    "longDescription": "Simplify an AI response, surface important facts, restate a request, recap recent work, get an independent decision from a fresh agent, or render a status board.",
+    "longDescription": "Simplify an AI response, surface important facts, restate a request, recap recent work, get an independent decision from a fresh agent, render a status board, or follow one lane on a ladder.",
     "developerName": "backnotprop",
     "category": "Productivity",
     "capabilities": [
