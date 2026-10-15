@@ -20,6 +20,7 @@ Practical, QoL, skills for daily work with AI.
 - `clean-room`: Gets an independent verdict from a fresh agent with no access to the current conversation.
 - `status`: Renders the work in flight as an ASCII status board in the terminal.
 - `ladder`: Renders one lane of work as a vertical progress ladder, done on top and todo below.
+- `big-pics-little-words`: Scaffold awaiting instructions.
 
 ### (latest ✨): Ladder
 

@@ -1,0 +1,7 @@
+interface:
+  display_name: "big-pics-little-words"
+  short_description: "Skill scaffold awaiting instructions"
+  default_prompt: "Use $big-pics-little-words."
+
+policy:
+  allow_implicit_invocation: false
