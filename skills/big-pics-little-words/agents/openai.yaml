@@ -1,6 +1,6 @@
 interface:
   display_name: "big-pics-little-words"
-  short_description: "Skill scaffold awaiting instructions"
+  short_description: "Explain with big visuals and few words"
   default_prompt: "Use $big-pics-little-words."
 
 policy:
