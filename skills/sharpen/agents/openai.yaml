@@ -1,0 +1,7 @@
+interface:
+  display_name: "sharpen"
+  short_description: "Sharpen the task before starting work"
+  default_prompt: "Use $sharpen."
+
+policy:
+  allow_implicit_invocation: false

@@ -8,6 +8,7 @@
     "./skills/clean-room",
     "./skills/status",
     "./skills/ladder",
-    "./skills/big-pics-little-words"
+    "./skills/big-pics-little-words",
+    "./skills/sharpen"
   ]
 }

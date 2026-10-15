@@ -21,10 +21,13 @@ Practical, QoL, skills for daily work with AI.
 - `status`: Renders the work in flight as an ASCII status board in the terminal.
 - `ladder`: Renders one lane of work as a vertical progress ladder, done on top and todo below.
 - `big-pics-little-words`: Explains the discussion in HTML with big visuals and few words.
+- `sharpen`: Sharpens the goal, approach, and scope before doing the work.
 
-### (latest ✨): Ladder
+### (latest ✨): Sharpen
 
-- `/ladder [lane]`: Renders one lane of work top to bottom, with a line marking where it stands today, then the next step.
+- `/sharpen [task]`: Sharpens the task, then does the work. It does not return a rewritten prompt.
+
+From [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan, under the [MIT license](skills/sharpen/LICENSE).
 
 ## Install
 
