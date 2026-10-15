@@ -2,8 +2,7 @@
 name: big-pics-little-words
 description: >-
   Explain the current subject in HTML with large visuals and minimal text
-  while preserving key details. Use when the human explicitly invokes
-  /big-pics-little-words or $big-pics-little-words. Never invoke automatically.
+  while preserving key details. 
 disable-model-invocation: true
 ---
 
