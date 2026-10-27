@@ -25,9 +25,7 @@ Practical, QoL, skills for daily work with AI.
 
 ### (latest ✨): Sharpen
 
-- `/sharpen [task]`: Sharpens the task, then does the work. It does not return a rewritten prompt.
-
-From [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan, under the [MIT license](skills/sharpen/LICENSE).
+- `/sharpen [task]`: Sharpen a task/idea
 
 ## Install
 
