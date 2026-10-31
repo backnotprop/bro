@@ -22,6 +22,7 @@ Practical, QoL, skills for daily work with AI.
 - `status`: Renders the work in flight as an ASCII status board in the terminal.
 - `ladder`: Renders one lane of work as a vertical progress ladder, done on top and todo below.
 - `big-pics-little-words`: Explains the discussion in HTML with big visuals and few words.
+- `one-pager`: Makes one HTML page that shares an idea with teammates early, or recaps work, with big pictures and little words.
 
 
 ### (latest ✨): Sharpen

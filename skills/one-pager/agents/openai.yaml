@@ -1,0 +1,7 @@
+interface:
+  display_name: "one-pager"
+  short_description: "One HTML page to share an idea or recap work"
+  default_prompt: "Use $one-pager."
+
+policy:
+  allow_implicit_invocation: false
