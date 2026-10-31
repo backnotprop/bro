@@ -25,9 +25,9 @@ Practical, QoL, skills for daily work with AI.
 - `one-pager`: Makes one HTML page that shares an idea with teammates early, or recaps work, with big pictures and little words.
 
 
-### (latest ✨): Sharpen
+### (latest ✨): One-pager
 
-- `/sharpen [task]`: Sharpen a task/idea
+- `/one-pager [idea]`: One HTML page that shares an idea with teammates early, or recaps work for them.
 
 ## Install
 
