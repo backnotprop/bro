@@ -23,11 +23,12 @@ Practical, QoL, skills for daily work with AI.
 - `ladder`: Renders one lane of work as a vertical progress ladder, done on top and todo below.
 - `big-pics-little-words`: Explains the discussion in HTML with big visuals and few words.
 - `one-pager`: Makes one HTML page that shares an idea with teammates early, or recaps work, with big pictures and little words.
+- `converge`: Pulls a sprawling session back into focus: names the goal, sorts open threads, and picks the one next thing.
 
 
-### (latest ✨): One-pager
+### (latest ✨): Converge
 
-- `/one-pager [idea]`: One HTML page that shares an idea with teammates early, or recaps work for them.
+- `/converge`: Pulls a session that drifted into tangents back to the goal, and ends with the one thing to focus on next.
 
 ## Install
 
