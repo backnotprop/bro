@@ -48,3 +48,11 @@ npx skills add backnotprop/bro
 codex plugin marketplace add backnotprop/bro
 codex plugin add bro@bro
 ```
+
+### Examples
+
+**/status** 
+
+_🔈 btw, want a UI for status?? try [Inbox by Plannotator](https://plannotator.ai/inbox)_
+
+<img width="1168" height="1366" alt="image" src="https://github.com/user-attachments/assets/557b3889-f593-438e-9b76-023b28a7378d" />
