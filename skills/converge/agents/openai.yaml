@@ -1,0 +1,7 @@
+interface:
+  display_name: "converge"
+  short_description: "Pull a sprawling session back into focus"
+  default_prompt: "Use $converge."
+
+policy:
+  allow_implicit_invocation: false
