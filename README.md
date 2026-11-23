@@ -25,11 +25,12 @@ Practical, QoL, skills for daily work with AI.
 - `one-pager`: Makes one HTML page that shares an idea with teammates early, or recaps work, with big pictures and little words.
 - `converge`: Pulls a sprawling session back into focus: names the goal, sorts open threads, and picks the one next thing.
 - `regret-minimization`: Launches one or more agents to simulate the future with deterministic scripts and cited factual data, then reports back the regrets of today's choices.
+- `storyboard`: Shows an end-to-end user and system flow in HTML using cropped UI snippets, automated steps in between, and minimal words.
 
 
-### (latest ✨): Regret minimization
+### (latest ✨): Storyboard
 
-- `/regret-minimization [decision or scenarios]`: Plays out one or more futures with deterministic scripts and cited facts, then comes back with what we'd regret about today's choices.
+- `/storyboard [flow or feature]`: Walks through the full lifecycle in HTML using cropped UI snippets, automated steps in between, and minimal words.
 
 ## Install
 

@@ -12,6 +12,7 @@
     "./skills/one-pager",
     "./skills/converge",
     "./skills/regret-minimization",
+    "./skills/storyboard",
     "./skills/sharpen"
   ]
 }

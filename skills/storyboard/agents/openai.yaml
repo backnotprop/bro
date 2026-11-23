@@ -1,0 +1,7 @@
+interface:
+  display_name: "storyboard"
+  short_description: "Show an end-to-end flow in HTML with cropped UI snippets"
+  default_prompt: "Use $storyboard to show the end-to-end user and system flow in HTML with cropped UI snippets and minimal words."
+
+policy:
+  allow_implicit_invocation: false
