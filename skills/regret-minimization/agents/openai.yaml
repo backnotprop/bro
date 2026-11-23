@@ -1,0 +1,7 @@
+interface:
+  display_name: "regret-minimization"
+  short_description: "Simulate futures to surface regrets of today's choices"
+  default_prompt: "Use $regret-minimization to launch future-simulating agents and report back the regrets of today's choices."
+
+policy:
+  allow_implicit_invocation: false

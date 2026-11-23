@@ -24,11 +24,12 @@ Practical, QoL, skills for daily work with AI.
 - `big-pics-little-words`: Explains the discussion in HTML with big visuals and few words.
 - `one-pager`: Makes one HTML page that shares an idea with teammates early, or recaps work, with big pictures and little words.
 - `converge`: Pulls a sprawling session back into focus: names the goal, sorts open threads, and picks the one next thing.
+- `regret-minimization`: Launches one or more agents to simulate the future with deterministic scripts and cited factual data, then reports back the regrets of today's choices.
 
 
-### (latest ✨): Converge
+### (latest ✨): Regret minimization
 
-- `/converge`: Pulls a session that drifted into tangents back to the goal, and ends with the one thing to focus on next.
+- `/regret-minimization [decision or scenarios]`: Plays out one or more futures with deterministic scripts and cited facts, then comes back with what we'd regret about today's choices.
 
 ## Install
 
