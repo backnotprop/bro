@@ -7,18 +7,18 @@
       "description": "Daily utilities for clear, direct work with AI.",
       "skills": [
         "bro",
-        "facts",
         "readback",
+        "sharpen",
+        "facts",
         "recap",
-        "clean-room",
+        "converge",
         "status",
         "ladder",
         "big-pics-little-words",
         "one-pager",
-        "converge",
-        "regret-minimization",
         "storyboard",
-        "sharpen"
+        "clean-room",
+        "regret-minimization"
       ]
     }
   ]
